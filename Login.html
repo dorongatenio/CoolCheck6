@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html lang="he" dir="rtl">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>עמוד התחברות</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link href="styles/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="./styles/reset.css" rel="stylesheet" />
+    <link href="./styles/styles.css" rel="stylesheet" />
+
+
+    <!-- JS -->
+    <script src="./jScripts/javascript.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <style>
+
+        body {
+            background-color: #12121b;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="login_container">
+
+        <div id="login_bg_image">
+
+        </div>
+        <div class="container text-center" style="display: flex; align-items: center; height: 100vh;">
+            <div class="col" style="width: 300px;">
+                <img style="height: 50px; align-items: center;" class="logoLogin" src="./images/LogoLight.svg" />
+                <div class="row" style="text-align: center; align-items: center;">
+                    <h1>ברוכים הבאים</h1>
+                </div>
+                <div class="row" style="text-align: center; align-items: center;">
+                    <p>
+                        כלי תומך לאיתור וטיפול בתקלות
+                        <br />
+                        עבור טכנאי מיזוג אוויר תעשייתי
+                    </p>
+                </div>
+                <div class="row" style="text-align: center; align-items: center; ">
+                    <div class="form-group">
+                        <input type="text" name="username" id="username" placeholder="שם משתמש" required>
+                        <label for="username"></label>
+                    </div>
+                </div>
+                <div class="row" style="text-align: center; align-items: center; justify-content: center; ">
+                    <div class="form-group">
+                        <input type="password" name="password" id="password" placeholder="סיסמה" required>
+                        <label for="password"></label>
+                    </div>
+                </div>
+                <div style="align-items: center; justify-content: center; ">
+                    <input type="button" class="loginbtn" value="כניסה" onclick="login()">
+                    <p id="message"></p>
+                </div>
+
+                <img style="height: 45px; align-items: center;" src="images/ElectraLogo.png" />
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
